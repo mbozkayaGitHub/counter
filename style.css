@@ -1,0 +1,69 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&family=Poppins&family=Roboto&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+   display:grid;
+   align-items:center;
+   justify-content: center;
+   background-color: #ffff;
+   margin-top:3rem
+
+   
+} 
+
+.baslik {
+
+    font-family: "Poppin", sans-serif;
+    color: rgb(60, 56, 56);
+    margin: 9rem;
+    font-weight: 700;
+    font-size: 50px;
+  
+    }
+.btn {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 50px;
+}
+
+.sayi {
+    font-size: 100px;
+    margin: 3rem;
+}
+
+button {
+    padding: 20px;
+    border-radius: 25px;
+    font-size: 20px;
+    border: none;
+    background-color: sandybrown;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin : 10px 5px 5 px 10px ;
+    letter-spacing: 2px;
+    box-shadow: 4px 5px gray ;
+    
+
+}
+
+.btn .azalt:hover {
+    background-color: rgb(240, 42, 42);
+   color: white;
+   cursor: pointer;
+   box-shadow: 4px 5px crimson;
+}
+.btn .arttir:hover {
+    background-color: green;
+    color: white;
+    transition: 0.7;
+    cursor: pointer;
+    box-shadow: 4px 5px  greenyellow;
+
+
+}
